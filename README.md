@@ -25,7 +25,7 @@ I bring a blend of industry experience in high-speed digital datapath integratio
 - Linked over 20 distinct register and bus state conditions to functional `covergroups` and cross-coverage targets.
 - Created a `bash` regression automation script (`regress.sh`) to run concurrent random-seed tests and merge `.ucdb` databases to achieve **99.2% functional coverage** and expose critical RTL bugs.
 
-### [Hardware Value Predictor & Design Space Exploration](LINK_TO_REPO)
+### [Hardware Value Predictor & Design Space Exploration](https://github.com/PUBALI19/Hardware-Value-Predictor-Design-Space-Exploration)
 *C++ | Microarchitecture Modeling | Performance Analysis*
 - Achieved a **2.04 IPC scaling speedup** on data-dependent SPEC benchmarks by architecting a cycle-accurate Stride Value Predictor (SVP).
 - Integrated speculative rename injection and utilized Forward Probabilistic Counters (FPC) to enforce a strict 19.0 KB hardware storage budget while maintaining **>99.5% prediction accuracy**.
