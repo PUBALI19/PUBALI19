@@ -6,7 +6,7 @@ I bring a blend of industry experience in high-speed digital datapath integratio
 
 ---
 
-## 🛠️ Skills & Technologies
+## Skills & Technologies
 
 - **Design & Verification**: SystemVerilog, Verilog, RTL Design, Layered Testbenches (OVM/UVM concepts), SVA (SystemVerilog Assertions), Test Plan Generation
 - **Protocols & Interfaces**: 10G Ethernet, MACsec, AXI4-Lite, AXI-Stream, I2C Multi-Bus Protocol, Wishbone Bus, SDRAM Burst Interfacing
@@ -16,7 +16,7 @@ I bring a blend of industry experience in high-speed digital datapath integratio
 
 ---
 
-## 🚀 Featured Engineering Projects
+## Featured Engineering Projects
 
 ### [I2C Multi-Bus Controller (I2CMB) Layered Testbench](https://github.com/PUBALI19/Design-and-Verification-of-an-I2C-Multi-Bus-Controller)
 *SystemVerilog | ASIC Verification | Test Plan Closure*
@@ -48,12 +48,12 @@ I bring a blend of industry experience in high-speed digital datapath integratio
 
 ---
 
-## 💼 Professional & Research Highlights
+## Professional & Research Highlights
 - **R&D FPGA Engineer (Tejas Networks - A Tata Group Company)**: Two years of experience integrating AMD MACsec security IP cores into a 10G Ethernet line datapath. Designed AXI4-Lite control planes, AXI-Stream data width converters, and multi-FIFO packet aggregators driven by round-robin FSM schedulers.
 - **IEEE-Published Research**: Authored hardware/software hybrid systems including a GAN-based real-time speech recognizer, a CNN distress-detection asset for assistive healthcare, and a thermal fire detection system designed for space capsule safety environments.
 
 ---
 
-📫 **Connect with me:**
-- 📧 [proy9@ncsu.edu](mailto:proy9@ncsu.edu)
-- 💼 [linkedin.com/in/pubali-roy](https://linkedin.com/in/pubali-roy)
+**Connect with me:**
+- [proy9@ncsu.edu](mailto:proy9@ncsu.edu)
+- [linkedin.com/in/pubali-roy](https://linkedin.com/in/pubali-roy)
