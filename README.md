@@ -19,7 +19,7 @@ I bring a blend of industry experience in high-speed digital datapath integratio
 ## Featured Engineering Projects
 
 ### [CUDA Cache Simulator](https://github.com/PUBALI19/CUDA-Cache-Simulator)
-*CUDA / GPU Computing / Computer Architecture*
+*CUDA | GPU Computing | Computer Architecture*
 - Ported a cycle-accurate, multi-level cache simulator (LRU replacement, hardware stream-buffer prefetching) from a class-based C++ implementation to flat, GPU-compatible data structures with __host__ __device__ shared logic between CPU and GPU builds.
 - Parallelized a cache-configuration design-space sweep in CUDA, using cudaMallocManaged and pointer-offset slicing to give each of up to 648 GPU threads private, independently-sized cache state.
 - Diagnosed and fixed a GPU-specific floating-point precision bug (log2 divergence between host and device) that silently corrupted cache indexing, caught only through systematic line-by-line output verification against a CPU baseline across every configuration.
