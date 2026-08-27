@@ -18,6 +18,12 @@ I bring a blend of industry experience in high-speed digital datapath integratio
 
 ## Featured Engineering Projects
 
+### [In-Order 5-Stage Pipeline (SystemVerilog)](https://github.com/PUBALI19/In-Order-5-Stage-Pipeline)
+*SystemVerilog | RTL Design | Computer Architecture*
+- Designed and implemented a 5-stage in-order pipelined processor (fetch, decode, execute, memory, writeback) in SystemVerilog, splitting control logic (sequential, FSM-driven) from datapath logic (combinational/sequential per stage) and organizing the design into one module per stage sharing a common SystemVerilog package for types.
+- Architected a custom start/finished handshake protocol to sequence instructions between pipeline stages in place of a fixed global cycle counter, and resolved a multi-cycle data-cache stall in the memory stage without over-stalling independent stages; verified correctness in Questa across directed test traces covering back-to-back loads, back-to-back stores, and load-immediately-after-store sequences.
+- Took the design through a synthesis flow (Synopsys Design Compiler and Xilinx Vivado), diagnosing real simulation-vs-synthesis gaps including a non-synthesizable string-typed port, a full-array memory reset loop blocking BRAM inference, and a combinational-divider critical path causing 448 failing setup endpoints (worst slack -31.5ns at a 50ns target period) isolating the ALU divider and dynamically-indexed register file as the limiting timing paths.
+
 ### [CUDA Cache Simulator](https://github.com/PUBALI19/CUDA-Cache-Simulator)
 *CUDA | GPU Computing | Computer Architecture*
 - Ported a cycle-accurate, multi-level cache simulator (LRU replacement, hardware stream-buffer prefetching) from a class-based C++ implementation to flat, GPU-compatible data structures with __host__ __device__ shared logic between CPU and GPU builds.
