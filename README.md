@@ -32,6 +32,11 @@ I bring a blend of industry experience in high-speed digital datapath integratio
 - Identified and resolved a single-block kernel launch bottleneck leaving 39 of 40 GPU streaming multiprocessors idle, and a unified-memory oversubscription issue that mimicked a hang at ~21.5GB on a 16GB GPU.
 - Achieved a 3.6x speedup over the sequential CPU sweep at 648 threads, after determining that raw thread count alone did not reliably improve performance, isolating per-thread memory footprint and per-thread computational depth as the actual governing factors.
 
+### [AES-128 Implementation (Cryptographic Engineering)](https://github.com/PUBALI19/AES-128-Implementation-Cryptographic-Engineering-)
+*Python | Cryptography | Algorithm Design*
+- Built a from-scratch implementation of AES-128 (all 10 encryption rounds and their inverse transformations) to deepen understanding of the encryption primitives underlying production MACsec security IP.
+- Implemented core transformations (`sub_bytes`, `shift_rows`, `mix_columns`, `add_round_key`) including finite-field arithmetic for `mix_columns`, validated through step-by-step intermediate state verification and full plaintext-to-ciphertext-to-plaintext round-trip correctness.
+
 ### [I2C Multi-Bus Controller (I2CMB) Layered Testbench](https://github.com/PUBALI19/Design-and-Verification-of-an-I2C-Multi-Bus-Controller)
 *SystemVerilog | ASIC Verification | Test Plan Closure*
 - Developed an object-oriented, layered verification environment using a custom base class library (`ncsu_pkg`) to thoroughly validate an open-source I2C IP core.
