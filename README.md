@@ -54,6 +54,11 @@ I bring a blend of industry experience in high-speed digital datapath integratio
 - Developed a parameterized multi-level cache simulator (L1 and L2) featuring True LRU replacement and nested Write-Back Write-Allocate (WBWA) cascading eviction policies.
 - Integrated an optimized $N$-way circular hardware Stream-Buffer Prefetcher, **reducing L1 cache miss rates by 99.6%** across 55+ memory trace configurations.
 
+### [Branch Predictor Simulator (Bimodal, Gshare, Hybrid)](https://github.com/PUBALI19/Branch-Predictor-Simulator-Bimodal-Gshare-Hybrid-)
+*C++ | Microarchitecture | Performance Evaluation*
+- Developed a cycle-accurate C++ simulator for Bimodal, Gshare, and Hybrid branch predictors using 2-bit saturating counters, Global History Branch Registers, and XOR-based indexing.
+- Evaluated 50+ configurations using industry-standard traces, achieving a **76% reduction in misprediction rate** (26.65% to 6.37%) by optimizing table sizes from 2^7 to 2^20 entries.
+
 ### [AI-Powered Resume-to-Job Matching Engine](https://github.com/NCSU-NNDL-Spring26/NNDL_13)
 *Python | Natural Language Processing | BERT Transformers*
 - Awarded **"Best Technical Content"** at a selective engineering symposium.
